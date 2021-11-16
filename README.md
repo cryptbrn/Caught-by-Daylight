@@ -35,8 +35,10 @@
 ???
 
 # Goals
-???
-
+```
+1. Mencapai tempat yang dituju dengan selamat
+2. Mengumpulkan poin semaksimal mungkin untuk menjadi IPK
+```
 # Asset
 ???
 
