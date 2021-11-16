@@ -29,7 +29,9 @@
 </table>
 
 # Story Summary
-???
+```
+Pada suatu hari
+```
 
 # Rules
 ???
