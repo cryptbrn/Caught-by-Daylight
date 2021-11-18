@@ -13,17 +13,17 @@
         <tr>
             <td>G64190071</td>
             <td>Sigit Raditya Pangestu</td>
-            <td>-</td>
+            <td>Game Artist</td>
         </tr>
         <tr>
             <td>G64190083</td>
             <td>Muhammad Reyhan</td>
-            <td>-</td>
+            <td>Game Developer</td>
         </tr>
         <tr>
             <td>G64190086</td>
             <td>Novaldi</td>
-            <td>-</td>
+            <td>Game Developer</td>
         </tr>
     </tbody>
 </table>
@@ -39,12 +39,17 @@ Rezi adalah seorang mahasiswa teladan di IPB, pada suatu hari Rezi kesiangan kar
 2. Beberapa rintangan dapat menyebabkan berkurangnya stamina Rezi, jangan sampai stamina Rezi habis.
 3. Terdapat minuman energi yang jika Rezi ambil dapat membuat Rezi lebih cepat (menambah waktu).
 4. Terdapat berbagai danusan yang jika Rezi ambil dapat membuat stamina Rezi bertambah.
-
 ```
 
 # Goals
 ```
 Mencapai tempat yang dituju dengan tepat waktu
+```
+
+# How To Play
+```
+Movement : Tekan arrow untuk bergerak ke sumbu horizontal dan vertikal
+Pause : Tekan Esc untuk pause menu
 ```
 # Asset
 -
