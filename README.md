@@ -30,8 +30,10 @@
 
 # Story Summary
 ```
-Rezi adalah seorang mahasiswa teladan di IPB, pada suatu hari Rezi kesiangan karena ia tidur terlalu larut malam disebabkan mengerjakan tugas projek game.
-Pagi itu Rezi harus mengikuti perkuliahan di suatu tempat, dalam perjalanan Rezi bertemu dengan berbagai macam rintangan. 
+Rezi adalah seorang mahasiswa teladan di IPB, 
+pada suatu hari Rezi kesiangan karena ia tidur terlalu larut malam disebabkan mengerjakan tugas projek game.
+Pagi itu Rezi harus mengikuti perkuliahan di suatu tempat, 
+dalam perjalanan Rezi bertemu dengan berbagai macam rintangan. 
 Bantu Rezi untuk mencapai tempat kuliahnya dengan tepat waktu agar tidak dihukum asprak.
 ```
 
