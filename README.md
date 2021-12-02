@@ -18,7 +18,7 @@
         <tr>
             <td>G64190083</td>
             <td>Muhammad Reyhan</td>
-            <td>Game Developer</td>
+            <td>Game Developer & Game Artist</td>
         </tr>
         <tr>
             <td>G64190086</td>
