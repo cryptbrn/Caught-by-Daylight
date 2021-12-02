@@ -50,7 +50,7 @@ public class PlayerController : MonoBehaviour
         RaycastHit2D rayUp = Physics2D.Raycast(transform.position, Vector2.up);
         RaycastHit2D rayDown = Physics2D.Raycast(transform.position, Vector2.down);
 
-        if(rayDown != null && rayDown.collider != null && rayDown.distance < 0.9f && rayDown.collider.tag != "Enemy"){
+        if(rayDown != null && rayDown.collider != null && rayDown.distance < distanceToBottomOfPlayer && rayDown.collider.tag != "Enemy"){
             isGrounded=true;
         }
     }
