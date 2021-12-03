@@ -24,12 +24,19 @@ public class PlayerController : MonoBehaviour
         if (Input.GetButtonDown("Jump") && isGrounded == true){
             Jump();
         }
+
         //ANIMATIONS
         if(moveX!=0){
             GetComponent<Animator>().SetBool("isRunning", true);
         } else {
             GetComponent<Animator>().SetBool("isRunning", false);
         }
+        if(isGrounded){
+            GetComponent<Animator>().SetBool("isJumping", false);
+        } else {
+            GetComponent<Animator>().SetBool("isJumping", true);
+        }
+
         //PLAYER DIRECTION
         if(moveX < 0.0f ){
             GetComponent<SpriteRenderer>().flipX = true;
