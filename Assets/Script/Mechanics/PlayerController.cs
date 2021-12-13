@@ -9,6 +9,7 @@ public class PlayerController : MonoBehaviour
     public float moveX;
     public bool isGrounded;
     public float distanceToBottomOfPlayer = 0.9f;
+    public AudioSource jumpSoundEffect;
 
 
     // Update is called once per frame
@@ -22,6 +23,7 @@ public class PlayerController : MonoBehaviour
         //CONTROLS
         moveX = Input.GetAxis("Horizontal");
         if (Input.GetButtonDown("Jump") && isGrounded == true){
+            jumpSoundEffect.Play();
             Jump();
         }
 
@@ -57,7 +59,7 @@ public class PlayerController : MonoBehaviour
         RaycastHit2D rayUp = Physics2D.Raycast(transform.position, Vector2.up);
         RaycastHit2D rayDown = Physics2D.Raycast(transform.position, Vector2.down);
 
-        if(rayDown.collider != null && rayDown.distance < distanceToBottomOfPlayer && rayDown.collider.tag != "Enemy"){
+        if(rayDown.collider != null && rayDown.distance < distanceToBottomOfPlayer){
             isGrounded=true;
         }
     }

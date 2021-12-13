@@ -7,6 +7,8 @@ namespace CBD.Mechanics{
     {
         public int EnemySpeed;
         public int XMoveDirection;
+        public int Damage = 10;
+        public AudioSource hitSoundEffect;
 
         // Start is called before the first frame update
         void Start()
@@ -35,11 +37,12 @@ namespace CBD.Mechanics{
         void EnemyRaycast(){
             RaycastHit2D hit = Physics2D.Raycast (transform.position, new Vector2(XMoveDirection, 0));
             RaycastHit2D rayUp = Physics2D.Raycast(transform.position, Vector2.up);
-            if(hit.distance < 0.9f && hit.collider.tag != "Ground"){
+            if(hit.distance < 0.9f && hit.collider.tag != "Ground" && hit.collider.tag != "Enemy" && hit.collider.tag != "Collectible"){
                 Flip();
                 if(hit.collider.tag == "Player"){
                     gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(XMoveDirection, 0)*EnemySpeed;
-                    FindObjectOfType<PlayerHealth>().LoseHealth(10);
+                    hitSoundEffect.Play();
+                    FindObjectOfType<PlayerHealth>().LoseHealth(Damage);
                 }
             }
 

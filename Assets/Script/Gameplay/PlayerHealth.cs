@@ -7,7 +7,7 @@ namespace CBD.Gameplay{
     public class PlayerHealth : MonoBehaviour
     {
         public float health;
-        public float maxhealth;
+        public float maxhealth = 100;
         public Image fillbar;
         public static bool isPlayerDead;
 
@@ -15,14 +15,14 @@ namespace CBD.Gameplay{
         void Start()
         {
             isPlayerDead = false;
-            health = 100;
-            maxhealth = 100;
+            health = maxhealth;
         }
 
         // Update is called once per frame
         void Update()
         {
             PlayerRaycast();
+            fillbar.fillAmount = health / 100;
         }
 
         void PlayerRaycast(){
