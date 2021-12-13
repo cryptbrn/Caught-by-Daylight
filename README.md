@@ -31,15 +31,16 @@
 # Story Summary
 ```
 Rezi adalah seorang mahasiswa teladan di IPB, 
-pada suatu hari Rezi kesiangan karena ia tidur terlalu larut malam disebabkan mengerjakan tugas projek game.
-Pagi itu Rezi harus mengikuti perkuliahan di suatu tempat, 
-dalam perjalanan Rezi bertemu dengan berbagai macam rintangan. 
-Bantu Rezi untuk mencapai tempat kuliahnya dengan tepat waktu agar tidak dihukum asprak.
+walaupun begitu kesehariannya penuh dengan tantangan.
+Mulai dari bangun kesiangan karena belajar hingga larut malam,
+mengejar waktu agar dapat solat tepat waktu, dan lain sebagainya.
+Bantu Rezi untuk menghadapi seluruh rintangan pada kesehariannya
+agar ia tetap menjadi mahasiswa teladan.
 ```
 
 # Rules
 ```
-1. Rezi tidak boleh sampai telat masuk kelas.
+1. Rezi tidak boleh sampai telat.
 2. Beberapa rintangan dapat menyebabkan berkurangnya stamina Rezi, jangan sampai stamina Rezi habis.
 3. Terdapat minuman energi yang jika Rezi ambil dapat membuat Rezi lebih cepat (menambah waktu).
 4. Terdapat berbagai danusan yang jika Rezi ambil dapat membuat stamina Rezi bertambah.
@@ -53,6 +54,7 @@ Mencapai tempat yang dituju dengan tepat waktu
 # How To Play
 ```
 Movement : Tekan arrow untuk bergerak ke sumbu horizontal dan vertikal
+Jump : Tekan space untuk melompat
 Pause : Tekan Esc untuk pause menu
 ```
 # Asset
